@@ -8,13 +8,16 @@ Abra `index.html` diretamente no navegador ou sirva esta pasta com qualquer serv
 
 ## Antes de publicar
 
-Substitua os marcadores no `index.html`:
+Antes da publicação definitiva, substitua os marcadores ainda não informados no `index.html`:
 
 - `{{EMAIL_GILMARA}}`
 - `{{CIDADE_UF}}`
 - `{{CRP_GILMARA}}`
-- troque os links sociais e o destino do WhatsApp pelos canais reais;
-- substitua a ilustração abstrata da seção “Sobre mim” pelo retrato profissional final.
+- confirme o e-mail, a cidade e o CRP caso sejam diferentes dos dados usados nas referências.
 
-O retrato atual é intencionalmente um placeholder vetorial: a geração fotográfica integrada estava temporariamente indisponível durante a implementação. Os prompts de produção estão em `docs/PROMPTS-IMAGENS-GILMARA.md`.
+As fotos reais da clínica e da profissional estão em `public/images/clinic/` e
+`public/images/professional/`. A página já usa essas imagens, o retrato da Gilmara,
+o telefone identificado nas peças do Instagram e a paleta terracota/chocolate
+derivada das referências visuais. Os prompts de produção continuam em
+`docs/PROMPTS-IMAGENS-GILMARA.md`.
 
