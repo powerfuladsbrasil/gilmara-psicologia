@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Símbolo Gilmara</title>
+  <desc id="desc">Ícone quadrado da marca Gilmara.</desc>
+  <rect width="256" height="256" rx="52" fill="#283748"/>
+  <g fill="none" stroke="#FCFCFD" stroke-width="11" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M128 116V42M128 75C111 75 98 65 91 51M128 75C145 75 158 65 165 51M128 94C106 94 88 85 77 69M128 94C150 94 168 85 179 69M117 114C99 111 82 102 69 88M139 114C157 111 174 102 187 88M128 116C111 116 98 125 88 140M128 116C145 116 158 125 168 140M128 116V211M128 164C111 164 98 174 90 191M128 164C145 164 158 174 166 191M128 194C111 194 101 201 94 214M128 194C145 194 155 201 162 214"/>
+  </g>
+  <circle cx="128" cy="116" r="17" fill="#B0A68D" stroke="#FCFCFD" stroke-width="8"/>
+</svg>
+
