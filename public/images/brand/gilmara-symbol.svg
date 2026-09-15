@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Símbolo Gilmara Cardozo Soares</title>
+  <desc id="desc">Marca abstrata com ramificações orgânicas que representam conexão e crescimento emocional.</desc>
+  <g fill="none" stroke="#283748" stroke-width="11" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M128 116V42"/>
+    <path d="M128 75C111 75 98 65 91 51"/>
+    <path d="M128 75C145 75 158 65 165 51"/>
+    <path d="M128 94C106 94 88 85 77 69"/>
+    <path d="M128 94C150 94 168 85 179 69"/>
+    <path d="M117 114C99 111 82 102 69 88"/>
+    <path d="M139 114C157 111 174 102 187 88"/>
+    <path d="M128 116C111 116 98 125 88 140"/>
+    <path d="M128 116C145 116 158 125 168 140"/>
+    <path d="M128 116V211"/>
+    <path d="M128 164C111 164 98 174 90 191"/>
+    <path d="M128 164C145 164 158 174 166 191"/>
+    <path d="M128 194C111 194 101 201 94 214"/>
+    <path d="M128 194C145 194 155 201 162 214"/>
+  </g>
+  <circle cx="128" cy="116" r="17" fill="#B0A68D" stroke="#283748" stroke-width="8"/>
+</svg>
+
