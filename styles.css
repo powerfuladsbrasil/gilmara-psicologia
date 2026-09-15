@@ -25,3 +25,7 @@
 @media (max-width:1023px){.clinic-gallery-inner{grid-template-columns:1fr;gap:48px}.clinic-heading{max-width:620px}.clinic-images{max-width:760px}.hero-note{min-height:350px}}
 @media (max-width:767px){.brand-mark{width:34px;height:34px}.brand-mark img{width:22px;height:22px}.brand-type strong{font-size:22px}.brand-type em{font-size:11px}.brand-type small{font-size:7px}.primary-nav{background:rgba(251,243,234,.98);border-color:#ead8c7}.hero-note{min-height:340px}.hero-note-copy{padding:23px 25px 25px}.hero-note-media,.hero-note-media img{min-height:190px}.clinic-gallery{padding:92px 0}.clinic-images{grid-template-columns:1fr 1fr;gap:12px}.clinic-image-main{height:270px}.clinic-image-small{height:190px}.clinic-image figcaption{left:8px;bottom:8px;font-size:9px;padding:5px 7px}.footer-wordmark strong{font-size:30px}}
 
+/* Mantém contraste no card destacado da seção de demandas */
+.issue-card.issue-feature h3{color:#fffaf5}
+.issue-card.issue-feature p{color:rgba(255,250,245,.82)}
+
