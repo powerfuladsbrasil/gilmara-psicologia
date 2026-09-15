@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 256" role="img" aria-labelledby="title desc">
+  <title id="title">Gilmara Cardozo Soares — Psicóloga</title>
+  <desc id="desc">Versão reversa do logotipo horizontal de Gilmara Cardozo Soares.</desc>
+  <g transform="translate(20 20) scale(.84375)">
+    <g fill="none" stroke="#FCFCFD" stroke-width="11" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M128 116V42M128 75C111 75 98 65 91 51M128 75C145 75 158 65 165 51M128 94C106 94 88 85 77 69M128 94C150 94 168 85 179 69M117 114C99 111 82 102 69 88M139 114C157 111 174 102 187 88M128 116C111 116 98 125 88 140M128 116C145 116 158 125 168 140M128 116V211M128 164C111 164 98 174 90 191M128 164C145 164 158 174 166 191M128 194C111 194 101 201 94 214M128 194C145 194 155 201 162 214"/>
+    </g>
+    <circle cx="128" cy="116" r="17" fill="#B0A68D" stroke="#FCFCFD" stroke-width="8"/>
+  </g>
+  <text x="250" y="112" fill="#FCFCFD" font-family="'Bebas Neue','Arial Narrow',sans-serif" font-size="72" letter-spacing="2">GILMARA</text>
+  <text x="250" y="171" fill="#FCFCFD" font-family="'Bebas Neue','Arial Narrow',sans-serif" font-size="52" letter-spacing="1.5">CARDOZO SOARES</text>
+  <text x="252" y="211" fill="#B0A68D" font-family="'Work Sans',Arial,sans-serif" font-size="20" font-weight="600" letter-spacing="3">PSICÓLOGA</text>
+</svg>
+
