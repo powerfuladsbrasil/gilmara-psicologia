@@ -28,6 +28,8 @@
 /* Mantém contraste no card destacado da seção de demandas */
 .issue-card.issue-feature h3{color:#fffaf5}
 .issue-card.issue-feature p{color:rgba(255,250,245,.82)}
+.issue-grid-single{grid-template-columns:minmax(0,720px);justify-content:center}
+.issue-grid-single .issue-feature{grid-column:auto;grid-row:auto;min-height:360px}
 
 /* Location */
 .location{padding:120px 0;background:#fffaf5}.location-inner{display:grid;grid-template-columns:.82fr 1.18fr;gap:64px;align-items:center}.location-copy{max-width:430px}.location-copy h2{margin:0;font-family:var(--display);font-size:clamp(3rem,5.5vw,4.5rem);font-weight:400;line-height:1;color:var(--petrol)}.location-copy h2 span{color:var(--terra)}.location-address{margin:24px 0 0;color:#6f5548;font-size:18px;line-height:1.55}.location-link{margin-top:28px}.location-map-card{position:relative;min-height:390px;border:1px solid rgba(189,135,75,.34);border-radius:24px;overflow:hidden;background:#ead8c9;box-shadow:0 18px 38px rgba(75,41,30,.12)}.location-map-card iframe{display:block;width:100%;height:390px;border:0}.footer-contact-button{margin-top:18px;min-height:44px;padding:10px 16px;font-size:13px}@media (max-width:1023px){.location-inner{grid-template-columns:1fr;gap:42px}.location-copy{max-width:620px}.location-map-card,.location-map-card iframe{min-height:360px;height:360px}}@media (max-width:767px){.location{padding:92px 0}.location-inner{gap:30px}.location-copy h2{font-size:clamp(3rem,14vw,4.1rem)}.location-map-card{min-height:300px;border-radius:20px}.location-map-card iframe{height:300px}}
