@@ -12,3 +12,6 @@ screenshots/
 .maestri/
 *.tmp
 *.temp
+
+.vercel
+.env*
