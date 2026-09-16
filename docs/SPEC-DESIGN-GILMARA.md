@@ -506,4 +506,3 @@ Checklist:
 - [ ] não há ativos, telefone, nome ou tracking pertencentes ao site de referência.
 
 Para comparação por screenshot, primeiro percorra a página uma vez para disparar o lazy-load e as animações; depois execute a captura com movimento desativado. A meta sugerida é diferença visual inferior a 1% nas áreas estruturais, aceitando variação apenas em texto e nos ativos próprios da Gilmara.
-

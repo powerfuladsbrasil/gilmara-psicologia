@@ -47,3 +47,47 @@ document.querySelectorAll('a[href^="#"]').forEach((link) => {
   });
 });
 
+// Google Maps — usa o endereço real fornecido pelo Builder e preserva uma URL oficial quando existir.
+const locationSection = document.querySelector('[data-location]');
+if (locationSection) {
+  const rawAddress = (locationSection.dataset.address || '').trim();
+  const rawCity = (locationSection.dataset.city || '').trim();
+  const mapsLink = locationSection.querySelector('[data-maps-link]');
+  const mapsFrame = locationSection.querySelector('[data-maps-frame]');
+  const cityLabel = locationSection.querySelector('[data-location-city]');
+  const addressLabel = locationSection.querySelector('[data-location-address]');
+  const unresolved = (value) => !value || value.includes('{{') || value.includes('}}');
+
+  if (unresolved(rawAddress)) {
+    // Sem endereço real, a seção não é exibida para evitar mapa vazio ou incorreto.
+    locationSection.hidden = true;
+  } else {
+    const cityResolved = !unresolved(rawCity);
+    const query = [rawAddress, cityResolved ? rawCity : ''].filter(Boolean).join(', ');
+    const encodedQuery = encodeURIComponent(query);
+
+    if (addressLabel) {
+      addressLabel.replaceChildren(document.createTextNode(rawAddress));
+      if (cityResolved) {
+        addressLabel.append(document.createElement('br'));
+        addressLabel.append(document.createTextNode(rawCity));
+      }
+    }
+
+    if (mapsLink) {
+      const currentHref = (mapsLink.getAttribute('href') || '').trim();
+      const hasOfficialUrl = /^https?:\/\//i.test(currentHref) && currentHref !== '#' && !unresolved(currentHref);
+      if (!hasOfficialUrl) {
+        mapsLink.href = `https://www.google.com/maps/search/?api=1&query=${encodedQuery}`;
+      }
+    }
+
+    if (mapsFrame) {
+      mapsFrame.src = `https://www.google.com/maps?q=${encodedQuery}&output=embed`;
+    }
+
+    if (cityLabel && !cityResolved) {
+      cityLabel.textContent = 'sua região';
+    }
+  }
+}

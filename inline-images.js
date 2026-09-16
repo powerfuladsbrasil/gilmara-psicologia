@@ -172,4 +172,3 @@
     if (inline) image.src = inline;
   });
 })();
-

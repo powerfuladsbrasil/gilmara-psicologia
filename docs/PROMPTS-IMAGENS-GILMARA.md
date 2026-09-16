@@ -283,4 +283,3 @@ Não salvar ícones sociais como imagens se estiver usando uma biblioteca SVG; i
 - [ ] imagem carrega sem layout shift;
 - [ ] contraste e recorte funcionam no mobile;
 - [ ] não há marca-d'água, artefatos anatômicos ou letras inventadas.
-

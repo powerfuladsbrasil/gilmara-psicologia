@@ -20,4 +20,3 @@ As fotos reais da clínica e da profissional estão em `public/images/clinic/` e
 o telefone identificado nas peças do Instagram e a paleta terracota/chocolate
 derivada das referências visuais. Os prompts de produção continuam em
 `docs/PROMPTS-IMAGENS-GILMARA.md`.
-
